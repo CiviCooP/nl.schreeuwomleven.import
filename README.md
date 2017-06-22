@@ -12,7 +12,9 @@ Niet alleen maakt deze extensie een api, hij breidt hem ook uit. Aanroepen
 kan met drush
 
     drush cvapi SolImport.cod
+    drush cvapi SolImport.email
 
 Het aantal te verwerken rijen is normaal 1000, maar kan aangepast worden met de limit parameter:
 
     drush cvapi SolImport.cod limit=21
+    drush cvapi SolImport.email limit=21
